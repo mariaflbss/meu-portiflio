@@ -4,11 +4,19 @@ import tailwindcss from "@tailwindcss/vite";
 import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
-  plugins: [react(), tailwindcss(), tsconfigPaths()],
+  base: "/meu-portifolio-/",
+
+  plugins: [
+    react(),
+    tailwindcss(),
+    tsconfigPaths()
+  ],
+
   server: {
     port: 3000,
     host: true,
   },
+
   resolve: {
     alias: {
       "@": "/src",

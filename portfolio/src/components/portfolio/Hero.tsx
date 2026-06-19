@@ -1,5 +1,6 @@
 import { ArrowDownToLine, Github, Linkedin, Mail } from "lucide-react";
-import fotoPerfil from "../../assets/images/fotodeperfil.png";
+import fotoPerfil from "../../assets/images/fotodeperfil.jpg";
+
 
 export function Hero() {
   return (
@@ -12,16 +13,17 @@ export function Hero() {
           </p>
           <div className="space-y-6">
             <h1 className="animate-reveal font-display text-5xl leading-[1.05] tracking-tight text-foreground md:text-7xl lg:text-8xl">
-              Maria Fernanda
-              <br />
-              <span className="font-normal italic text-brand-accent">Laboissiere</span>
+              <a>
+                Maria Fernanda
+                <br />
+                <span className="font-normal italic text-brand-accent">
+                  Laboissiere
+                </span>
+                <ArrowDownToLine className="ml-3 inline-block size-6 opacity-0 transition-all duration-300 group-hover:translate-y-1 group-hover:opacity-100 md:size-8" />
+              </a>
             </h1>
-            <p
-              className="animate-reveal max-w-xl text-lg font-light leading-relaxed text-muted-foreground md:text-xl"
-              style={{ animationDelay: "120ms" }}
-            >
-              Pesquisadora e desenvolvedora de software dedicada à interseção entre sistemas
-              inteligentes, arquitetura distribuída e engenharia de produto de alto padrão.
+            <p>
+              Estudante de Desenvolvimento de Software Multiplataforma,
             </p>
           </div>
           <div
@@ -29,7 +31,8 @@ export function Hero() {
             style={{ animationDelay: "200ms" }}
           >
             <a
-              href="#contato"
+              href="/meu-portifolio-/curriculo-maria-fernanda-laboissiere.pdf"
+              download
               className="group inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3.5 text-sm font-medium text-primary-foreground shadow-elegant transition-all hover:-translate-y-0.5 hover:shadow-deep"
             >
               <ArrowDownToLine className="size-4 transition-transform group-hover:translate-y-0.5" />
@@ -37,13 +40,13 @@ export function Hero() {
             </a>
             <div className="flex items-center gap-1 pl-2">
               <span className="mr-3 h-px w-8 bg-border" />
-              <IconLink href="https://github.com" label="GitHub">
+              <IconLink href="https://github.com/mariaflbss" label="GitHub">
                 <Github className="size-4" />
               </IconLink>
-              <IconLink href="https://linkedin.com" label="LinkedIn">
+              <IconLink href="https://www.linkedin.com/in/maria-fernanda-laboissiere-25362b353/" label="LinkedIn">
                 <Linkedin className="size-4" />
               </IconLink>
-              <IconLink href="#contato" label="E-mail">
+              <IconLink href="mailto:laboissieremaria@gmail.com" label="E-mail">
                 <Mail className="size-4" />
               </IconLink>
             </div>
@@ -62,12 +65,6 @@ export function Hero() {
               width={800}
               height={1024}
             />
-          </div>
-          <div className="absolute -bottom-6 -left-6 hidden rounded-2xl border border-border bg-surface px-5 py-4 shadow-elegant md:block">
-            <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-brand-accent">
-              Disponível
-            </p>
-            <p className="mt-1 text-sm font-medium text-foreground">para colaborações</p>
           </div>
         </div>
       </div>

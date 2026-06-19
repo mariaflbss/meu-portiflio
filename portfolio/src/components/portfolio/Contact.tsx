@@ -50,7 +50,6 @@ export function Contact() {
               <Github className="size-5 text-primary-foreground/60" />
               <span className="text-base">github.com/mariaflbss</span>
             </a>
-
         </div>
       </div>
 

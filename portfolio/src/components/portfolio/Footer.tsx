@@ -5,9 +5,6 @@ export function Footer() {
         <p className="text-[10px] font-semibold uppercase tracking-[0.25em] text-brand-silver">
           © {new Date().getFullYear()} Maria Fernanda Laboissiere
         </p>
-        <p className="text-[10px] uppercase tracking-[0.25em] text-brand-silver">
-          Teste
-        </p>
       </div>
     </footer>
   );

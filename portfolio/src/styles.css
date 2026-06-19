@@ -127,7 +127,7 @@
 }
 
 @utility font-display {
-  font-family: var(--font-serif);
+  font-family: 'Sora', sans-serif;
   font-feature-settings: "lnum";
   letter-spacing: -0.01em;
 }

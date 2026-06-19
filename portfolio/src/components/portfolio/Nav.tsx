@@ -35,7 +35,7 @@ export function Nav() {
     >
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6 lg:h-20">
         <a href="#top" className="font-display text-lg font-bold tracking-tight">
-          MARIALBSS <span className="text-brand-accent">.</span>
+          <span>&lt;/ Maria Laboissiere&gt;</span>
         </a>
 
         <div className="hidden items-center gap-8 lg:flex">
