@@ -27,7 +27,7 @@ const projects: Project[] = [
     category: "Aprendizagem por Projeto Integrado | 1º Semestre",
     cover: apiCrows,
     description:
-      "Plataforma web desenvolvida para análise do desempenho dos municípios do estado de São Paulo no comércio exterior utilizando dados abertos. Durante o desenvolvimento, foram aprimorados conhecimentos em Python, Flask, GitHub, desenvolvimento web e manipulação de dados. Durante o desenvolvimento do projeto, aprimorei habilidades como trabalho em equipe, comunicação, organização, pensamento analítico, resolução de problemas e aplicação da metodologia ágil Scrum.",
+      "Plataforma web desenvolvida para análise do desempenho dos municípios do estado de São Paulo no comércio exterior utilizando dados abertos. Durante o desenvolvimento, foram aprimorados conhecimentos em Python, Flask, GitHub, desenvolvimento web e manipulação de dados. A utilização da metodologia Scrum e o trabalho em equipe contribuíram para o desenvolvimento da comunicação, por meio das reuniões de alinhamento e apresentações das entregas. A organização foi fortalecida pela gestão das atividades em sprints e pelo acompanhamento contínuo das tarefas. Já o pensamento analítico e a resolução de problemas foram exercitados durante a interpretação dos dados de comércio exterior e na busca por formas mais eficientes de transformá-los em informações claras e úteis para os usuários da plataforma.",
     problem:
       "A dificuldade de visualizar e interpretar dados de comércio exterior dos municípios paulistas dificultava a identificação de oportunidades, tendências de crescimento e possíveis desafios econômicos regionais.",
     solution:
@@ -60,7 +60,7 @@ const projects: Project[] = [
     category: "Aprendizagem Por projeto integrado | 2º Semestre",
     cover: apiKingfisher,
     description:
-      "Plataforma de gestão integrada desenvolvida para centralizar processos administrativos, comerciais e operacionais da empresa NeweLog, substituindo ferramentas descentralizadas por uma solução única e organizada.Durante o projeto, desenvolvi soft skills como comunicação com a equipe e clientes, organização de tarefas, planejamento, levantamento de requisitos, colaboração e adaptação às necessidades do projeto.",
+      "Plataforma de gestão integrada desenvolvida para centralizar processos administrativos, comerciais e operacionais da empresa NeweLog, substituindo ferramentas descentralizadas por uma solução única e organizada. Durante o projeto, a comunicação foi constantemente exercitada por meio das interações com a equipe e da compreensão das necessidades apresentadas pelo cliente. A organização e o planejamento foram desenvolvidos durante a definição de prioridades e acompanhamento das atividades das sprints. O levantamento de requisitos fortaleceu a capacidade de escuta e análise de necessidades de negócio, enquanto a colaboração com os demais integrantes da equipe contribuiu para o desenvolvimento do trabalho em equipe e da adaptação às mudanças ocorridas ao longo do projeto.",
     problem:
       "A empresa utilizava diferentes ferramentas para gerenciar seus processos, como Microsoft Lists, Google Forms e planilhas, causando fragmentação de informações, retrabalho, inconsistência de dados e dificuldade na análise dos resultados.",
     solution:
@@ -93,7 +93,7 @@ const projects: Project[] = [
     category: "Aprendizagem por Projeto Integrado | 3º Semestre",
     cover: apiJavatheHutt,
     description:
-      "Sistema web desenvolvido para a GSW com o objetivo de centralizar o controle de apontamento de horas, permitindo maior visibilidade sobre produtividade, custos e desempenho das equipes.Durante o projeto, desenvolvi soft skills como trabalho em equipe, comunicação, organização, análise de requisitos, resolução de problemas e colaboração em um ambiente de desenvolvimento ágil.",
+      "Sistema web desenvolvido para a GSW com o objetivo de centralizar o controle de apontamento de horas, permitindo maior visibilidade sobre produtividade, custos e desempenho das equipes. Durante o desenvolvimento, o trabalho em equipe foi essencial para integrar as diferentes partes da aplicação e garantir a consistência das entregas. A comunicação foi constantemente praticada durante os alinhamentos da equipe e discussões sobre requisitos e soluções técnicas. A organização foi fortalecida pela utilização do Scrum e pelo acompanhamento das atividades em backlog. Além disso, a análise de requisitos e a necessidade de solucionar desafios relacionados à arquitetura e integração dos sistemas contribuíram para o desenvolvimento do pensamento crítico e da resolução de problemas.",
     problem:
       "A empresa enfrentava dificuldades devido ao uso de um sistema de apontamento de horas obsoleto, com lentidão, falhas de integração e ausência de indicadores para análise de produtividade, atrasos e alocação de recursos.",
     solution:
@@ -125,80 +125,80 @@ const projects: Project[] = [
     gallery: [apiJavatheHutt],
   },
   {
-  name: "Agente de IA para Análise de Filmes (2009–2019)",
-  category: "Interação Humano Computador | Agentes de Dados",
-  cover: agenteFilmes,
-  description:
-    "Agente de dados conversacional capaz de responder perguntas em linguagem natural sobre filmes exibidos no Brasil entre 2009 e 2019. O sistema utiliza um banco SQLite para armazenamento dos dados, download automatizado do dataset via KaggleHub e um loop agentico completo para planejamento, execução de consultas e geração de respostas.",
-  problem:
-    "A análise de grandes volumes de dados cinematográficos exige conhecimento técnico em SQL e ferramentas de análise, dificultando a exploração das informações por usuários comuns.",
-  solution:
-    "Foi desenvolvido um agente inteligente capaz de interpretar perguntas em linguagem natural, consultar automaticamente o banco de dados de filmes e retornar respostas contextualizadas, permitindo acesso simples e intuitivo às informações do dataset.",
-  methodology:
-    "A solução utiliza um fluxo agentico composto pelas etapas de Planejamento, Execução de Ferramentas e Síntese da Resposta. O agente identifica a intenção do usuário, gera consultas SQL quando necessário e utiliza os resultados obtidos para construir respostas precisas.",
-  results: [
-    "Implementação de um agente conversacional orientado a dados.",
-    "Integração com banco de dados SQLite para consultas dinâmicas.",
-    "Download automatizado do dataset através do KaggleHub.",
-    "Conversão de linguagem natural em consultas estruturadas.",
-    "Geração automática de respostas baseadas em dados reais.",
-    "Aplicação prática de conceitos de IA Generativa e Agentic AI."
-  ],
-  tech: [
-    "Python",
-    "SQLite",
-    "OpenAI API",
-    "Ollama",
-    "KaggleHub",
-    "Pandas",
-    "Jupyter Notebook",
-    "SQL",
-    "Git",
-    "GitHub"
-  ],
-  repo: "https://github.com/mariaflbss/data-agent-filmes",
-  gallery: [agenteFilmes],
-},
-{
+    name: "Agente de IA para Análise de Filmes (2009–2019)",
+    category: "Interação Humano Computador | Agentes de Dados",
+    cover: agenteFilmes,
+    description:
+      "Agente de dados conversacional capaz de responder perguntas em linguagem natural sobre filmes exibidos no Brasil entre 2009 e 2019. Durante o desenvolvimento da solução, foram aprofundados conhecimentos em Inteligência Artificial, bancos de dados e processamento de linguagem natural. O projeto exigiu autonomia e aprendizado contínuo para compreender conceitos relacionados a agentes inteligentes e integração com modelos de linguagem. O pensamento analítico foi desenvolvido na estruturação do fluxo de tomada de decisão do agente, enquanto a resolução de problemas foi constantemente aplicada para garantir consultas corretas e respostas coerentes aos usuários.",
+    problem:
+      "A análise de grandes volumes de dados cinematográficos exige conhecimento técnico em SQL e ferramentas de análise, dificultando a exploração das informações por usuários comuns.",
+    solution:
+      "Foi desenvolvido um agente inteligente capaz de interpretar perguntas em linguagem natural, consultar automaticamente o banco de dados de filmes e retornar respostas contextualizadas, permitindo acesso simples e intuitivo às informações do dataset.",
+    methodology:
+      "A solução utiliza um fluxo agentico composto pelas etapas de Planejamento, Execução de Ferramentas e Síntese da Resposta. O agente identifica a intenção do usuário, gera consultas SQL quando necessário e utiliza os resultados obtidos para construir respostas precisas.",
+    results: [
+      "Implementação de um agente conversacional orientado a dados.",
+      "Integração com banco de dados SQLite para consultas dinâmicas.",
+      "Download automatizado do dataset através do KaggleHub.",
+      "Conversão de linguagem natural em consultas estruturadas.",
+      "Geração automática de respostas baseadas em dados reais.",
+      "Aplicação prática de conceitos de IA Generativa e Agentic AI."
+    ],
+    tech: [
+      "Python",
+      "SQLite",
+      "OpenAI API",
+      "Ollama",
+      "KaggleHub",
+      "Pandas",
+      "Jupyter Notebook",
+      "SQL",
+      "Git",
+      "GitHub"
+    ],
+    repo: "https://github.com/mariaflbss/data-agent-filmes",
+    gallery: [agenteFilmes],
+  },
+  {
 
-  name: "Atlantis — Sistema de Gestão Integrado para Hotéis, Pousadas e Resorts",
-  category: "Técnicas de Programação II | Desenvolvimento Full Stack",
-  cover: sistemaAtlantis,
-  description:
-    "Sistema de gestão hoteleira desenvolvido com arquitetura frontend-backend separada, permitindo o gerenciamento completo de clientes, acomodações, reservas e métricas operacionais. A aplicação integra React, Express e SQLite através de uma API REST, garantindo persistência de dados e comunicação eficiente entre as camadas do sistema.",
-  problem:
-    "Processos de gestão de hospedagem frequentemente dependem de controles manuais ou sistemas fragmentados, dificultando o gerenciamento de hóspedes, acomodações, reservas e indicadores operacionais de forma centralizada.",
-  solution:
-    "Foi desenvolvido um sistema web integrado capaz de centralizar as operações de hotéis, pousadas e resorts. A solução oferece autenticação de usuários, gerenciamento completo de clientes, acomodações e reservas, além de dashboards com métricas em tempo real alimentadas por dados persistidos em banco SQLite.",
-  methodology:
-    "A aplicação foi construída utilizando arquitetura cliente-servidor, com frontend em React e TypeScript consumindo endpoints REST desenvolvidos em Express. O backend implementa camadas de rotas, controladores e serviços para separar responsabilidades, enquanto o SQLite garante persistência dos dados e integridade das operações.",
-  results: [
-    "Implementação de autenticação integrada entre frontend e backend.",
-    "CRUD completo para gerenciamento de clientes e dependentes.",
-    "CRUD completo para cadastro e controle de acomodações.",
-    "Sistema de reservas com associação entre hóspedes e acomodações.",
-    "Dashboard com métricas operacionais calculadas em tempo real.",
-    "Persistência de dados utilizando banco de dados SQLite.",
-    "Integração completa via API REST entre React e Express.",
-    "Aplicação prática de conceitos de arquitetura Full Stack e Engenharia de Software."
-  ],
-  tech: [
-    "React",
-    "TypeScript",
-    "Vite",
-    "Tailwind CSS",
-    "Node.js",
-    "Express.js",
-    "SQLite",
-    "REST API",
-    "Fetch API",
-    "CORS",
-    "Git",
-    "GitHub"
-  ],
-  repo: "https://github.com/mariaflbss/AV5_tecprogII",
-  gallery: [sistemaAtlantis],
-}
+    name: "Atlantis — Sistema de Gestão Integrado para Hotéis, Pousadas e Resorts",
+    category: "Técnicas de Programação II | Desenvolvimento Full Stack",
+    cover: sistemaAtlantis,
+    description:
+      "Sistema de gestão hoteleira desenvolvido com arquitetura frontend-backend separada, permitindo o gerenciamento completo de clientes, acomodações, reservas e métricas operacionais. Durante o projeto, a organização foi desenvolvida por meio do planejamento das funcionalidades e da estruturação das diferentes camadas da aplicação. A resolução de problemas esteve presente na implementação das regras de negócio e na integração entre frontend, backend e banco de dados. O pensamento analítico foi exercitado na modelagem das entidades e na construção dos indicadores apresentados nos dashboards. Além disso, a colaboração durante as atividades acadêmicas contribuiu para o fortalecimento do trabalho em equipe e da comunicação.",
+    problem:
+      "Processos de gestão de hospedagem frequentemente dependem de controles manuais ou sistemas fragmentados, dificultando o gerenciamento de hóspedes, acomodações, reservas e indicadores operacionais de forma centralizada.",
+    solution:
+      "Foi desenvolvido um sistema web integrado capaz de centralizar as operações de hotéis, pousadas e resorts. A solução oferece autenticação de usuários, gerenciamento completo de clientes, acomodações e reservas, além de dashboards com métricas em tempo real alimentadas por dados persistidos em banco SQLite.",
+    methodology:
+      "A aplicação foi construída utilizando arquitetura cliente-servidor, com frontend em React e TypeScript consumindo endpoints REST desenvolvidos em Express. O backend implementa camadas de rotas, controladores e serviços para separar responsabilidades, enquanto o SQLite garante persistência dos dados e integridade das operações.",
+    results: [
+      "Implementação de autenticação integrada entre frontend e backend.",
+      "CRUD completo para gerenciamento de clientes e dependentes.",
+      "CRUD completo para cadastro e controle de acomodações.",
+      "Sistema de reservas com associação entre hóspedes e acomodações.",
+      "Dashboard com métricas operacionais calculadas em tempo real.",
+      "Persistência de dados utilizando banco de dados SQLite.",
+      "Integração completa via API REST entre React e Express.",
+      "Aplicação prática de conceitos de arquitetura Full Stack e Engenharia de Software."
+    ],
+    tech: [
+      "React",
+      "TypeScript",
+      "Vite",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "SQLite",
+      "REST API",
+      "Fetch API",
+      "CORS",
+      "Git",
+      "GitHub"
+    ],
+    repo: "https://github.com/mariaflbss/AV5_tecprogII",
+    gallery: [sistemaAtlantis],
+  }
 
 ];
 
@@ -214,7 +214,7 @@ export function Projects() {
               Projetos
             </p>
             <h2 className="font-display text-4xl tracking-tight md:text-5xl">
-              Projetos selecionados
+              Projetos Desenvolvidos
             </h2>
           </div>
         </div>
@@ -222,7 +222,7 @@ export function Projects() {
         <div className="grid gap-6 md:grid-cols-2">
           {projects.map((p) => (
             <button
-              key={p.index}
+              key={p.name}
               onClick={() => setOpen(p)}
               className="group relative flex flex-col overflow-hidden rounded-2xl border border-white/10 bg-white/[0.03] bg-clip-padding isolate"
               style={{ WebkitMaskImage: '-webkit-radial-gradient(white, black)' }}

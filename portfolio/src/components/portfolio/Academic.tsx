@@ -53,7 +53,7 @@ export function Academic() {
     <section id="academico" className="px-6 py-28 lg:py-32">
       <div className="mx-auto max-w-6xl">
         <SectionHeading
-          kicker="Biblioteca Digital"
+          kicker="Pesquisa e Desenvolvimento"
           title="Trabalhos acadêmicos"
           description="Trabalhos de conclusão, artigos, relatórios técnicos e projetos de pesquisa que documentam minha trajetória investigativa."
         />
